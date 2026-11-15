@@ -27,8 +27,8 @@ Site de apresentação e catálogo de serviços para um estúdio de design de so
 1. Instale o [Node.js](https://nodejs.org/) (versão 20 ou mais nova).
 2. Baixe o repositório:
    ```bash
-   git clone https://github.com/Eliseu2013/site-designer-sobrancelhas-demo.git
-   cd site-designer-sobrancelhas-demo
+   git clone https://github.com/Eliseu2013/site-sobrancelhas.git
+   cd site-sobrancelhas
    ```
 3. Instale as dependências:
    ```bash
