@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // No GitHub Pages o site fica em /site-sobrancelhas/ (o workflow define BASE_PATH).
+    // Localmente e na Vercel continua na raiz "/".
+    base: process.env.BASE_PATH || '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
